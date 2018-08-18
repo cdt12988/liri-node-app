@@ -17,3 +17,7 @@ concert-this,Everclear
 concert-this,311
 spotify-this,Almost+Bowling+for+Soup
 movie-this,Toy+Story
+spotify-this,Under+the+Bridge
+spotify-this,Under+the+Bridge
+concert-this,Weezer
+movie-this,Forrest+Gump

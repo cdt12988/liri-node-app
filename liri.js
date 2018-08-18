@@ -15,7 +15,7 @@ var liri = {
 		
 		this.input = this.input.trim();
 		this.input = this.input.replace(/ /g, '+');
-		console.log(this.input);
+// 		console.log(this.input);
 	},
 	prepareString(str) {
 		var formattedStr = str.trim().replace(/ /g, '+');
@@ -138,7 +138,7 @@ var liri = {
 					case 'concert-this':
 						liri.findConcerts();
 						break;
-					case 'spotify-this-song':
+					case 'spotify-this':
 						liri.findSong();
 						break;
 					case 'movie-this':
@@ -232,7 +232,7 @@ var liri = {
 						console.log('');
 						var formattedSong = liri.prepareString(song.name);
 						liri.input = formattedSong;
-						liri.command = 'spotify-this-song';
+						liri.command = 'spotify-this';
 						liri.findSong();
 						console.log('');
 						setTimeout(function() {
@@ -263,7 +263,7 @@ switch(liri.command) {
 		liri.findConcerts();
 		console.log('');
 		break;
-	case 'spotify-this-song':
+	case 'spotify-this':
 		liri.findSong();
 		console.log('');
 		break;
@@ -287,7 +287,7 @@ switch(liri.command) {
 		console.log('');
 		console.log('		-- displays a list of upcoming concerts for the band.');
 		console.log('');
-		console.log("*	'spotify-this-song' [song name]")
+		console.log("*	'spotify-this' [song name]")
 		console.log('');
 		console.log('		-- displays information about the song');
 		console.log('');
