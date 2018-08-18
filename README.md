@@ -37,7 +37,7 @@ SPOTIFY_ID=<your-spotify-id>
 SPOTIFY_SECRET=<your-spotify-secret>
 ```
 
-Replace '<your-spotify-id>' and '<your-spotify-secret>' with your own Spotify ID and Spotify Secret so that it looks more like this:
+Replace '\<your-spotify-id\>' and '\<your-spotify-secret\>' with your own Spotify ID and Spotify Secret so that it looks more like this:
 
 ```js
 # Spotify API keys
