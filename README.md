@@ -14,7 +14,7 @@ npm install
 
 ### Setup
 
-Because this app uses the Node-Spotify-API, a unique Spotify ID and Secret is required to use the Spotify portion of the app.  If you do not already have these, you will need to follow the steps listed below.  If you already have these, you can skip ahead to
+Because this app uses the Node-Spotify-API, a unique Spotify ID and Secret is required to use the Spotify portion of the app.  If you do not already have these, you will need to follow the steps listed below.  If you already have these, you can skip to Creating Local Environment Variables
 
 #### Obtaining Spotify ID/Secret
 
