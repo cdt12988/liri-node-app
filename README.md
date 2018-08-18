@@ -4,6 +4,8 @@ LIRI is a Node.js command line application that accepts two different methods of
 
 ## Getting Started
 
+You must install the app and retrieve a Spotify Id and Secret before the app can run properly.
+
 ### Installation
 
 To install LIRI, simply download or clone the Git Repository to your computer.  Then in your command line application, ensure you are within the repo directory and issue the following command to install all of the necessary packages for the app to run properly. Note that you must already have Node.js installed on your machine for this to work.
@@ -14,7 +16,7 @@ npm install
 
 ### Setup
 
-Because this app uses the Node-Spotify-API, a unique Spotify ID and Secret is required to use the Spotify portion of the app.  If you do not already have these, you will need to follow the steps listed below.  If you already have these, you can skip to Creating Local Environment Variables
+Because this app uses the Node-Spotify-API, a unique Spotify ID and Secret is required to use the Spotify portion of the app.  If you do not already have these, you will need to follow the steps listed below.  If you already have these, you can skip to Creating Local Environment Variables.
 
 #### Obtaining Spotify ID/Secret
 
@@ -50,17 +52,23 @@ You are now ready to run the app!
 
 ## Using the App
 
+To run the app, you must run the 'liri.js' script through node in your command line.  Within your command line, make sure you are within the proper directory and run the script.
+
+``` 
+node liri.js <command-arguments-if-any>
+```
+
 ## User Input
 
 LIRI accepts two methods of user input: command line arguments and inquirer prompts.  Essentially, there are just two ways of using the app.
 
-### Command Line Arguments
+### Command Arguments
 
 This first method of using the app allows the user to input specific command arguments after running the app to quickly perform a single search.
 
 These commands are predefined and the user must know them and the proper syntax ahead of time in order for them to return the desired results.
 
-#### Commands
+#### Available Commands
 
 ##### concert-this
 
