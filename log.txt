@@ -11,13 +11,8 @@ spotify-this,Freebird
 spotify-this,Sweet+Child+O'+Mine
 movie-this,Forrest+Gump
 spotify-this-song,Iris
-spotify-this-song,Iris
 concert-this,Bowling+for+Soup
 concert-this,Everclear
 concert-this,311
 spotify-this,Almost+Bowling+for+Soup
 movie-this,Toy+Story
-spotify-this,Under+the+Bridge
-spotify-this,Under+the+Bridge
-concert-this,Weezer
-movie-this,Forrest+Gump
