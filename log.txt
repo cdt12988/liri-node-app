@@ -16,3 +16,5 @@ concert-this,Everclear
 concert-this,311
 spotify-this,Almost+Bowling+for+Soup
 movie-this,Toy+Story
+concert-this,Weezer
+spotify-this,By+the+Way

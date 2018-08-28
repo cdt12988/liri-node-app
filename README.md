@@ -2,6 +2,8 @@
 
 LIRI is a Node.js command line application that accepts two different methods of user input to perform various API calls and return information back to the user.
 
+![Screenshot](https://cdt12988.github.io/images/portfolio/liri.jpg "LIRI Screenshot")
+
 ## Getting Started
 
 You must install the app and retrieve a Spotify Id and Secret before the app can run properly.
@@ -112,7 +114,7 @@ To end the program, select 'Nothing' within the list of commands.
 
 ## Developer Notes
 
-### Languages and Packages
+### Developer's Toolkit
 
 LIRI is written in Node.js and uses the following Node.js Packages:
 
@@ -125,6 +127,8 @@ LIRI is written in Node.js and uses the following Node.js Packages:
 * moment
 
 * node-spotify-api
+
+* file-system
 
 ### Contributors
 
